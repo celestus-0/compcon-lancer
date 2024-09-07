@@ -334,7 +334,7 @@
       "current_structure": 4,
       "current_move": 5,
       "boost": 0,
-      "current_hp": 11,
+      "current_hp": 13,
       "overshield": 0,
       "current_stress": 4,
       "current_heat": 0,
@@ -353,7 +353,7 @@
       "reactor_destroyed": false,
       "core_active": false,
       "cc_ver": "ERR",
-      "lastModified": "Sat Sep 07 2024 19:11:18 GMT+0000 (Greenwich Mean Time)",
+      "lastModified": "Sat Sep 07 2024 19:44:01 GMT+0000 (Greenwich Mean Time)",
       "isDeleted": false,
       "expireTime": "",
       "deleteTime": "",
@@ -363,7 +363,56 @@
         {
           "id": "13168602-32f2-4150-aa83-e5de4e4b2446",
           "name": "Primary",
-          "systems": [],
+          "systems": [
+            {
+              "id": "ms_high_stress_mag_clamps",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": "A simple, reliable set of toggleable mag clamps built into a mech’s locomotive system can vastly increase the tactical possibilities open to its pilot. When switched on, these clamps allow a mech to cling to ferrous surfaces, which is especially useful in low- and zero-gravity environments."
+            },
+            {
+              "id": "ms_personalizations",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": ""
+            },
+            {
+              "id": "ms_pattern_a_jericho_deployable_cover",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": ""
+            },
+            {
+              "id": "ms_armament_redundancy",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced."
+            },
+            {
+              "id": "ms_tracking_bug",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user."
+            },
+            {
+              "id": "ms_custom_paint_job",
+              "uses": 0,
+              "destroyed": false,
+              "cascading": false,
+              "flavorName": "",
+              "flavorDescription": ""
+            }
+          ],
           "integratedSystems": [],
           "mounts": [
             {
@@ -372,11 +421,35 @@
               "slots": [
                 {
                   "size": "Main",
-                  "weapon": null
+                  "weapon": {
+                    "id": "mw_vulture_dmr",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "The Vulture Designated Marksman Rifle (DMR) is SSC’s core battle rifle. Reliable, available in dozens of configurations and calibers, and fed by box, drum, or belt, the Vulture is a popular armament across a wide range of mechs.",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
                 },
                 {
                   "size": "Auxiliary",
-                  "weapon": null
+                  "weapon": {
+                    "id": "GMSC_weapons_autocannon",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "<div>GMS maintains a full catalogue of weaponry intended for use in both irregular and regular warfare, and in the event of emergency defense or wide-spread planetary or local system conflict, ranking Union Naval and Administrative personnel are authorized to grant all able-bodied combatants and partisans  access to the full suite of GMS weapons for the duration of the crisis.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.</div>",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
                 }
               ],
               "extra": [],
@@ -389,7 +462,19 @@
               "slots": [
                 {
                   "size": "Heavy",
-                  "weapon": null
+                  "weapon": {
+                    "id": "mw_anti_materiel_rifle",
+                    "destroyed": false,
+                    "cascading": false,
+                    "loaded": true,
+                    "mod": null,
+                    "flavorName": "",
+                    "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive” style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                    "customDamageType": null,
+                    "maxUseOverride": 0,
+                    "uses": 0,
+                    "selectedProfile": 0
+                  }
                 }
               ],
               "extra": [],
@@ -612,6 +697,18 @@
       "LcpName": "Field Guide to Suldan",
       "LcpVersion": "2.2.6",
       "Website": "https://kaitave.itch.io/field-guide-to-suldan"
+    },
+    {
+      "LcpId": "3KPcpSycxy0ywx7Pq2FhdVM6gLI=",
+      "LcpName": "GMS CRISIS CATALOG",
+      "LcpVersion": "2.7",
+      "Website": "https://esbionarshadow.itch.io/gms-crisis-catalogue"
+    },
+    {
+      "LcpId": "05B2PGxewZ193c4GaHDBoE2sl8U=",
+      "LcpName": "LANCER: Dustgrave",
+      "LcpVersion": "1.4.0",
+      "Website": "https://massif-press.itch.io/dustgrave"
     }
   ]
 }
